@@ -1124,6 +1124,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                       ),
+
                                     ],
                                   ),
                                 ),
@@ -1164,6 +1165,1134 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         fontSize: 32 * screenWidth,
                                         fontWeight: FontWeight.w500,  // Se cambió a FontWeight.w600
                                         height: 1.1875 * screenWidth / screenWidth,
+                                        color: Color(0xffffffff),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+
+                              Positioned(
+                                // asistenciamecnicaGbc (1:3459)
+                                left: (221) * screenWidth, // Cambiado el top
+                                top: (3348) * screenWidth, // Cambiado el top
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 86 * screenWidth,
+                                    height: 80 * screenWidth,
+                                    child: SelectableText( // Cambiado RichText por SelectableText
+                                      'Asistencia\nmecánica',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle( // Cambiando SafeGoogleFont por TextStyle
+                                        fontFamily: 'Inter', // Cambiado el nombre de la fuente
+                                        fontSize: 16 * screenWidth,
+                                        fontWeight: FontWeight.w800, // Cambiado el grosor
+                                        height: 1.25 * screenWidth / screenWidth, // Simplificado
+                                        color: Color(0xffedc7b3),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+
+                              Positioned(
+                                // asistenciamecnicaGbc (1:3459)
+                                left: (221) * screenWidth, // Cambiado el top
+                                top: (3388) * screenWidth, // Cambiado el top
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 86 * screenWidth,
+                                    height: 80 * screenWidth,
+                                    child: SelectableText( // Cambiado RichText por SelectableText
+                                      'en donde\nquiera que estés',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle( // Cambiando SafeGoogleFont por TextStyle
+                                        fontFamily: 'Inter', // Cambiado el nombre de la fuente
+                                        fontSize: 16 * screenWidth,
+                                        fontWeight: FontWeight.w500, // Cambiado el grosor
+                                        height: 1.25 * screenWidth / screenWidth, // Simplificado
+                                        color: Color(0xffedc7b3),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+
+
+
+                              Positioned(
+                                // asistenciamecnicaGbc (1:3459)
+                                left: (460) * screenWidth, // Cambiado el top
+                                top: (3348) * screenWidth, // Cambiado el top
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 160 * screenWidth,
+                                    height: 80 * screenWidth,
+                                    child: SelectableText( // Cambiado RichText por SelectableText
+                                      'Carga de batería\ny combustible',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle( // Cambiando SafeGoogleFont por TextStyle
+                                        fontFamily: 'Inter', // Cambiado el nombre de la fuente
+                                        fontSize: 16 * screenWidth,
+                                        fontWeight: FontWeight.w800, // Cambiado el grosor
+                                        height: 1.25 * screenWidth / screenWidth, // Simplificado
+                                        color: Color(0xff5c777c),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+
+                              Positioned(
+                                // asistenciamecnicaGbc (1:3459)
+                                left: (460) * screenWidth, // Cambiado el top
+                                top: (3388) * screenWidth, // Cambiado el top
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 160 * screenWidth,
+                                    height: 80 * screenWidth,
+                                    child: SelectableText( // Cambiado RichText por SelectableText
+                                      'por emergencia',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle( // Cambiando SafeGoogleFont por TextStyle
+                                        fontFamily: 'Inter', // Cambiado el nombre de la fuente
+                                        fontSize: 16 * screenWidth,
+                                        fontWeight: FontWeight.w500, // Cambiado el grosor
+                                        height: 1.25 * screenWidth / screenWidth, // Simplificado
+                                        color: Color(0xff5c777c),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+
+
+
+                              Positioned(
+                                // asistenciamecnicaGbc (1:3459)
+                                left: (460+270) * screenWidth, // Cambiado el top
+                                top: (3348) * screenWidth, // Cambiado el top
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 160 * screenWidth,
+                                    height: 80 * screenWidth,
+                                    child: SelectableText( // Cambiado RichText por SelectableText
+                                      'Apertura\n de puertas',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle( // Cambiando SafeGoogleFont por TextStyle
+                                        fontFamily: 'Inter', // Cambiado el nombre de la fuente
+                                        fontSize: 16 * screenWidth,
+                                        fontWeight: FontWeight.w800, // Cambiado el grosor
+                                        height: 1.25 * screenWidth / screenWidth, // Simplificado
+                                        color: Color(0xff5c777c),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+
+
+                              Positioned(
+                                // asistenciamecnicaGbc (1:3459)
+                                left: (460+270) * screenWidth, // Cambiado el top
+                                top: (3388) * screenWidth, // Cambiado el top
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 160 * screenWidth,
+                                    height: 80 * screenWidth,
+                                    child: SelectableText( // Cambiado RichText por SelectableText
+                                      'por llaves en el exterior',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle( // Cambiando SafeGoogleFont por TextStyle
+                                        fontFamily: 'Inter', // Cambiado el nombre de la fuente
+                                        fontSize: 16 * screenWidth,
+                                        fontWeight: FontWeight.w500, // Cambiado el grosor
+                                        height: 1.25 * screenWidth / screenWidth, // Simplificado
+                                        color: Color(0xff5c777c),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+
+
+
+                              Positioned(
+                                // asistenciamecnicaGbc (1:3459)
+                                left: (460+270+280) * screenWidth, // Cambiado el top
+                                top: (3348) * screenWidth, // Cambiado el top
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 160 * screenWidth,
+                                    height: 80 * screenWidth,
+                                    child: SelectableText( // Cambiado RichText por SelectableText
+                                      'Exceso de valor\n de wincha',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle( // Cambiando SafeGoogleFont por TextStyle
+                                        fontFamily: 'Inter', // Cambiado el nombre de la fuente
+                                        fontSize: 16 * screenWidth,
+                                        fontWeight: FontWeight.w800, // Cambiado el grosor
+                                        height: 1.25 * screenWidth / screenWidth, // Simplificado
+                                        color: Color(0xff5c777c),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+
+                              Positioned(
+                                // ofrecemoscrditodirectohasta10c (1:3661)
+                                left: 215 * screenWidth,
+                                top: (3348+190) * screenWidth, // Cambiado el top
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 700 * screenWidth,
+                                    height: 114 * screenWidth,
+                                    child: SelectableText( // Cambiado RichText por SelectableText
+                                      'Ofrecemos crédito directo hasta 10\ncuotas sin intereses y trabajamos con\ntodas las tarjetas de crédito a 12 meses.',
+                                      style: TextStyle( // Cambiado SafeGoogleFont por TextStyle
+                                        fontFamily: 'Montserrat', // Cambiado el nombre de la fuente
+                                        fontSize: 32 * screenWidth,
+                                        fontWeight: FontWeight.w600, // Cambiado el grosor
+                                        height: 1.1875 * screenWidth / screenWidth, // Simplificado
+                                        color: Color(0xffedc7b3),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+
+                              Positioned(
+                                // grupo2620Rsg (1:3977)
+                                left: 215 * screenWidth,
+                                top: (3348+400) * screenWidth, // Cambiado el top
+                                child: Container(
+                                  width: 467 * screenWidth,
+                                  height: 163.22 * screenWidth,
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Container(
+                                        // preprateahoraparacualquierimpr (1:3549)
+                                        margin: EdgeInsets.fromLTRB(
+                                            0 * screenWidth, 0 * screenWidth, 0 * screenWidth, 9.22 * screenWidth),
+                                        constraints: BoxConstraints(
+                                          maxWidth: 467 * screenWidth,
+                                        ),
+                                        child: SelectableText.rich( // Cambiado RichText por SelectableText.rich
+                                          TextSpan(
+                                            style: TextStyle( // Cambiado SafeGoogleFont por TextStyle
+                                              fontFamily: 'Montserrat', // Cambiado el nombre de la fuente
+                                              fontSize: 25 * screenWidth,
+                                              fontWeight: FontWeight.w500,
+                                              height: 1.12 * screenWidth / screenWidth, // Simplificado
+                                              color: Color(0xffffffff),
+                                            ),
+                                            children: [
+                                              TextSpan(
+                                                text: 'Prepárate ahora para cualquier imprevisto en la carretera y ',
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.w500, // Mantuve el fontWeight
+                                                ),
+                                              ),
+                                              TextSpan(
+                                                text: 'asegura viajes tranquilos ',
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.w900, // Mantuve el fontWeight
+                                                ),
+                                              ),
+                                              TextSpan(
+                                                text: 'con',
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.w500, // Mantuve el fontWeight
+                                                ),
+                                              ),
+                                            ],
+                                          ),
+                                        ),
+                                      ),
+                                      Container(
+                                        // grupo1889Ysk (1:3975)
+                                        width: 359.91 * screenWidth,
+                                        height: 69 * screenWidth,
+                                        child: Stack(
+                                          children: [
+                                            Positioned(
+                                              // grupo14506PU (1:3974)
+                                              left: 0 * screenWidth,
+                                              top: 17.7211914062 * screenWidth,
+                                              child: Align(
+                                                child: SizedBox(
+                                                  width: 242.91 * screenWidth,
+                                                  height: 48.82 * screenWidth,
+                                                  child: Image.asset(
+                                                    'assets/lp-qsegoct-xd-import-14-oct-2023-1125pm/images/grupo-1450-DYe.png',
+                                                    width: 242.91 * screenWidth,
+                                                    height: 48.82 * screenWidth,
+                                                  ),
+                                                ),
+                                              ),
+                                            ),
+                                            Positioned(
+                                              // carCSW (1:3548)
+                                              left: 242.9097900391 * screenWidth,
+                                              top: 0 * screenWidth,
+                                              child: Align(
+                                                child: SizedBox(
+                                                  width: 117 * screenWidth,
+                                                  height: 69 * screenWidth,
+                                                  child: Text(
+                                                    'CAR',
+                                                    style: TextStyle( // Cambiado SafeGoogleFont por TextStyle
+                                                      fontFamily: 'Inter', // Cambiado el nombre de la fuente
+                                                      fontSize: 57 * screenWidth,
+                                                      fontWeight: FontWeight.w400,
+                                                      height: 1.2105263158 * screenWidth / screenWidth, // Simplificado
+                                                      color: Color(0xffffffff),
+                                                    ),
+                                                  ),
+                                                ),
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                // lavidaestllenadeimprevistosQcz (1:3553)
+                                left: 139 * screenWidth,
+                                top: (3348+770) * screenWidth, // Cambiado el top
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 398 * screenWidth,
+                                    height: 110 * screenWidth,
+                                    child: SelectableText( // Cambiado RichText por SelectableText
+                                      'La vida está llena de imprevistos',
+                                      style: TextStyle( // Cambiado SafeGoogleFont por TextStyle
+                                        fontFamily: 'Montserrat', // Cambiado el nombre de la fuente
+                                        fontSize: 43 * screenWidth,
+                                        fontWeight: FontWeight.w800, // Cambiado el grosor
+                                        height: 1.1627906977 * screenWidth / screenWidth, // Simplificado
+                                        color: Color(0xffaf182b),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+
+                              Positioned(
+                                // poresodiseamosplanesdevidaquet (1:3554)
+                                left: 139 * screenWidth,
+                                top: (3348+880) * screenWidth, // Cambiado el top
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 1388 * screenWidth,
+                                    height: 200 * screenWidth,
+                                    child: SelectableText.rich( // Cambiado RichText por SelectableText.rich
+                                      TextSpan(
+                                        style: TextStyle( // Cambiado SafeGoogleFont por TextStyle
+                                          fontFamily: 'Montserrat', // Cambiado el nombre de la fuente
+                                          fontSize: 32 * screenWidth,
+                                          fontWeight: FontWeight.w500,
+                                          height: 1.1875 * screenWidth / screenWidth, // Simplificado
+                                          color: Color(0xff707070),
+                                        ),
+                                        children: [
+                                          TextSpan(
+                                            text: 'Por eso diseñamos\n',
+                                            style: TextStyle(
+                                              fontWeight: FontWeight.w500,
+                                            ),
+                                          ),
+                                          TextSpan(
+                                            text: 'planes de vida que te\nbrindan tranquilidad',
+                                            style: TextStyle(
+                                              fontWeight: FontWeight.w700,
+                                            ),
+                                          ),
+                                          TextSpan(
+                                            text: ' en\nmomentos difíciles',
+                                            style: TextStyle(
+                                              fontWeight: FontWeight.w500,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+
+                              Positioned(
+                                // tuseguridadyladetufamiliaprote (1:3601)
+                                left: 304.4090576172 * screenWidth,
+                                top: (4955+70) * screenWidth, // Cambiado el top
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 758 * screenWidth,
+                                    height: 39 * screenWidth,
+                                    child: SelectableText(
+                                      'Tu seguridad y la de tu familia protegida con:',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontFamily: 'Montserrat', // Cambiado el nombre de la fuente
+                                        fontSize: 32 * screenWidth,
+                                        fontWeight: FontWeight.w600, // Cambiado el grosor
+                                        height: 1.2175 * screenWidth / screenWidth, // Simplificado
+                                        color: Color(0xffffffff),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                top: (2781+60) * screenWidth,
+                                left: 859 * screenWidth,
+                                child: Container(
+                                  // gastosmdicosporaccidenteJWn (1:3158)
+                                  constraints: BoxConstraints(
+                                    maxWidth: 88 * screenWidth,
+                                  ),
+                                  child: SelectableText(
+                                    'Gastos\nmédicos por\naccidente',
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                      fontFamily: 'Montserrat', // Cambiado el nombre de la fuente
+                                      fontSize: 16 * screenWidth,
+                                      fontWeight: FontWeight.w700,
+                                      height: 1.25 * screenWidth / screenWidth, // Simplificado
+                                      color: Color(0xff5c777c),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                // rentadiariaporhospitalizacingv (1:3164)
+                                left: 92 * screenWidth,
+                                top: (5290) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 160 * screenWidth,
+                                    height: 80 * screenWidth,
+                                    child: Text(
+                                      'Gastos\nmédicos por\naccidente',
+                                      textAlign: TextAlign.center,
+                                      style: SafeGoogleFont(
+                                        'Inter',
+                                        fontSize: 16 * screenWidth,
+                                        fontWeight: FontWeight.w600,
+                                        height: 1.25 * screenWidth / screenWidth,
+                                        color: Color(0xff5c777c),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+
+
+
+                              Positioned(
+                                // rentadiariaporhospitalizacingv (1:3164)
+                                left: 353 * screenWidth,
+                                top: (5290) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 160 * screenWidth,
+                                    height: 80 * screenWidth,
+                                    child: Text(
+                                      'Renta diaria por\nhospitalización',
+                                      textAlign: TextAlign.center,
+                                      style: SafeGoogleFont(
+                                        'Inter',
+                                        fontSize: 16 * screenWidth,
+                                        fontWeight: FontWeight.w800,
+                                        height: 1.25 * screenWidth / screenWidth,
+                                        color: Color(0xff5c777c),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+
+                              Positioned(
+                                // porcualquiercausa3Pp (1:3176)
+                                left: 353 * screenWidth,
+                                top: (5290+45) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 140 * screenWidth,
+                                    height: 80 * screenWidth,
+                                    child: Text(
+                                      ' por cualquier\ncausa',
+                                      textAlign: TextAlign.center,
+                                      style: SafeGoogleFont(
+                                        'Montserrat',
+                                        fontSize: 16 * screenWidth,
+                                        fontWeight: FontWeight.w500,
+                                        height: 1.25 * screenWidth / screenWidth,
+                                        color: Color(0xff5c777c),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+
+                              Positioned(
+                                // coberturaparaincapacidadesydes (1:3182)
+                                left: 600 * screenWidth,
+                                top: 5290 * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 145 * screenWidth,
+                                    height: 60 * screenWidth,
+                                    child: Text(
+                                      'Cobertura para\nincapacidades y\ndesmembraciones',
+                                      textAlign: TextAlign.center,
+                                      style: SafeGoogleFont(
+                                        'Inter',
+                                        fontSize: 16 * screenWidth,
+                                        fontWeight: FontWeight.w800,
+                                        height: 1.25 * screenWidth / screenWidth,
+                                        color: Color(0xff5c777c),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                // dobleindemnizacinN6e (1:3188)
+                                left: 856 * screenWidth,
+                                top: 5290 * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 160 * screenWidth,
+                                    height: 40 * screenWidth,
+                                    child: Text(
+                                      'Doble indemnización',
+                                      textAlign: TextAlign.center,
+                                      style: SafeGoogleFont(
+                                        'Inter',
+                                        fontSize: 16 * screenWidth,
+                                        fontWeight: FontWeight.w800,
+                                        height: 1.25 * screenWidth / screenWidth,
+                                        color: Color(0xffedc7b3),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                // encasodemuerteaccidentalxae (1:3190)
+                                left: 846 * screenWidth,
+                                top: (5290+40) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 170 * screenWidth,
+                                    height: 85 * screenWidth,
+                                    child: Text(
+                                      'en caso de muerte\naccidental ',
+                                      textAlign: TextAlign.center,
+                                      style: SafeGoogleFont(
+                                        'Montserrat',
+                                        fontSize: 16 * screenWidth,
+                                        fontWeight: FontWeight.w500,
+                                        height: 1.25 * screenWidth / screenWidth,
+                                        color: Color(0xffedc7b3),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                // encasodemuerteaccidentalxae (1:3190)
+                                left: 1120 * screenWidth,
+                                top: (5290) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 150 * screenWidth,
+                                    height: 85 * screenWidth,
+                                    child: Text(
+                                      'Planes\nexequiales',
+                                      textAlign: TextAlign.center,
+                                      style: SafeGoogleFont(
+                                        'Montserrat',
+                                        fontSize: 16 * screenWidth,
+                                        fontWeight: FontWeight.w800,
+                                        height: 1.25 * screenWidth / screenWidth,
+                                        color:Color(0xff5c777c),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                // encasodemuerteaccidentalxae (1:3190)
+                                left: 873 * screenWidth,
+                                top: (5830) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 250 * screenWidth,
+                                    height: 85 * screenWidth,
+                                    child: Text(
+                                      'Coberturas desde',
+                                      textAlign: TextAlign.center,
+                                      style: SafeGoogleFont(
+                                        'Montserrat',
+                                        fontSize: 22 * screenWidth,
+                                        fontWeight: FontWeight.w500,
+                                        height: 1.2272727273 * screenWidth / screenWidth,
+                                        color: Color(0xff5c777c),
+                                      )))
+                                  ),
+                                ),
+                              Positioned(
+                                // encasodemuerteaccidentalxae (1:3190)
+                                left: 823 * screenWidth,
+                                top: (5830+160) * screenWidth,
+                                child: Align(
+                                    child: SizedBox(
+                                        width: 350 * screenWidth,
+                                        height: 85 * screenWidth,
+                                        child: Text(
+                                            'Costos mensuales desde',
+                                            textAlign: TextAlign.center,
+                                            style: SafeGoogleFont(
+                                              'Montserrat',
+                                              fontSize: 22 * screenWidth,
+                                              fontWeight: FontWeight.w500,
+                                              height: 1.2272727273 * screenWidth / screenWidth,
+                                              color: Color(0xff5c777c),
+                                            )))
+                                ),
+                              ),
+                              Positioned(
+                                // conqualitylifepuedesdejarunleg (1:3550)
+                                left: 215 * screenWidth,
+                                top: (6111+80) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 308 * screenWidth,
+                                    height: 85 * screenWidth,
+                                    child: SelectableText.rich(
+                                      TextSpan(
+                                        children: [
+                                          TextSpan(
+                                            text: 'Con QualityLife,\npuedes dejar ',
+                                            style: TextStyle(
+                                              fontFamily: 'Montserrat',
+                                              fontSize: 25 * screenWidth,
+                                              fontWeight: FontWeight.w500,
+                                              height: 1.12,
+                                              color: Color(0xffffffff),
+                                            ),
+                                          ),
+                                          TextSpan(
+                                            text: 'un legado\nde protección',
+                                            style: TextStyle(
+                                              fontFamily: 'Montserrat',
+                                              fontSize: 25 * screenWidth,
+                                              fontWeight: FontWeight.w900,
+                                              height: 1.12,
+                                              color: Color(0xffffffff),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                // obtnunpresupuestohoymismoydesc (1:3639)
+                                left: 186.8460083008 * screenWidth,
+                                top: (6365 + 80) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 1018 * screenWidth,
+                                    height: 70 * screenWidth,
+                                    child: SelectableText.rich(
+                                      TextSpan(
+                                        style: TextStyle(
+                                          fontFamily: 'Montserrat',
+                                          fontSize: 32 * screenWidth,
+                                          fontWeight: FontWeight.w400,
+                                          height: 1.09375,
+                                          color: Color(0xffaf182b),
+                                        ),
+                                        children: [
+                                          TextSpan(
+                                            text: 'Obtén un presupuesto hoy mismo ',
+                                            style: TextStyle(
+                                              fontFamily: 'Montserrat',
+                                              fontSize: 32 * screenWidth,
+                                              fontWeight: FontWeight.w700,
+                                              height: 1.09375,
+                                              color: Color(0xffaf182b),
+                                            ),
+                                          ),
+                                          TextSpan(
+                                            text: 'y descubre cómo podemos adaptar un seguro de acuerdo a tus necesidades.',
+                                            style: TextStyle(
+                                              fontFamily: 'Montserrat',
+                                              fontSize: 32 * screenWidth,
+                                              fontWeight: FontWeight.w400,
+                                              height: 1.09375,
+                                              color: Color(0xffaf182b),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                // planificatufuturohoygka (1:3643)
+                                left: 139 * screenWidth,
+                                top: (6776+80) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 368 * screenWidth,
+                                    height: 100 * screenWidth,
+                                    child: Text(
+                                      'Planifica tu\nfuturo, HOY',
+                                      style: SafeGoogleFont(
+                                        'Montserrat',
+                                        fontSize: 43 * screenWidth,
+                                        fontWeight: FontWeight.w800,
+                                        height: 1.1627906977 * screenWidth / screenWidth,
+                                        color: Color(0xffedc7b3),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+
+                              Positioned(
+                                // cadaetapadelavidamereceserdisf (1:3644)
+                                left: 139 * screenWidth,
+                                top: (6940+80) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 438 * screenWidth,
+                                    height: 200 * screenWidth,
+                                    child: SelectableText.rich(
+                                      TextSpan(
+                                        style: TextStyle(
+                                          fontFamily: 'Montserrat',
+                                          fontSize: 32 * screenWidth,
+                                          fontWeight: FontWeight.w500,
+                                          height: 1.25,
+                                          color: Color(0xffffffff),
+                                        ),
+                                        children: [
+                                          TextSpan(
+                                            text: 'Cada etapa de la vida merece ser disfrutada al máximo. ',
+                                            style: TextStyle(
+                                              fontFamily: 'Montserrat',
+                                              fontSize: 32 * screenWidth,
+                                              fontWeight: FontWeight.w700,
+                                              height: 1.25,
+                                              color: Color(0xffffffff),
+                                            ),
+                                          ),
+                                          TextSpan(
+                                            text: 'Por eso te ayudamos a planificarla con un seguro que incluye:',
+                                            style: TextStyle(
+                                              fontFamily: 'Montserrat',
+                                              fontSize: 32 * screenWidth,
+                                              fontWeight: FontWeight.w500,
+                                              height: 1.25,
+                                              color: Color(0xffffffff),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+
+                              Positioned(
+                                // planesdejubilacinpersonalizado (1:3218)
+                                left: 211.6400146484 * screenWidth,
+                                top: (7459+110) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 115 * screenWidth,
+                                    height: 60 * screenWidth,
+                                    child: Text(
+                                      'Planes de\njubilación\npersonalizados',
+                                      textAlign: TextAlign.center,
+                                      style: SafeGoogleFont(
+                                        'Inter',
+                                        fontSize: 16 * screenWidth,
+                                        fontWeight: FontWeight.w600,
+                                        height: 1.25,
+                                        color: Color(0xff5c777c),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+
+                              Positioned(
+                                // planificacindeestudiosK1c (1:3260)
+                                left: 446.4760131836 * screenWidth,
+                                top: (7459+110)* screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 180 * screenWidth,
+                                    height: 60 * screenWidth,
+                                    child: Text(
+                                      'Planificación\nde estudios',
+                                      textAlign: TextAlign.center,
+                                      style: SafeGoogleFont(
+                                        'Inter',
+                                        fontSize: 16 * screenWidth,
+                                        fontWeight: FontWeight.w800,
+                                        height: 1.25,
+                                        color: Color(0xff5c777c),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                // programasdeahorroeinversininte (1:3269)
+                                left: 771.0319824219 * screenWidth,
+                                top: (7459+110)* screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 100 * screenWidth,
+                                    height: 75 * screenWidth,
+                                    child: Text(
+                                      'Programas\nde ahorro\ne inversión\ninteligentes',
+                                      textAlign: TextAlign.center,
+                                      style: SafeGoogleFont(
+                                        'Inter',
+                                        fontSize: 16 * screenWidth,
+                                        fontWeight: FontWeight.w600,
+                                        height: 1.25 ,
+                                        color: Color(0xff5c777c),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                // planesdeherenciaM8e (1:3276)
+                                left: 1014.3840332031 * screenWidth,
+                                top: (7459+110)* screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 140 * screenWidth,
+                                    height: 60 * screenWidth,
+                                    child: Text(
+                                      'Planes de\nherencia',
+                                      textAlign: TextAlign.center,
+                                      style: SafeGoogleFont(
+                                        'Inter',
+                                        fontSize: 16 * screenWidth,
+                                        fontWeight: FontWeight.w600,
+                                        height: 1.25 ,
+                                        color: Color(0xffedc7b3),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                // comienzaaconstruiruncaminofina (1:3651)
+                                left: 235.5297851562 * screenWidth,
+                                top: (7595+110) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 895 * screenWidth,
+                                    height: 96 * screenWidth,
+                                    child: SelectableText.rich(
+                                      TextSpan(
+                                        style: TextStyle(
+                                          fontFamily: 'Montserrat',
+                                          fontSize: 28 * screenWidth,
+                                          fontWeight: FontWeight.w500,
+                                          height: 1.1428571429,
+                                          color: Color(0xffffffff),
+                                        ),
+                                        children: [
+                                          TextSpan(
+                                            text: 'Comienza a construir un camino financiero sólido,',
+                                            style: TextStyle(
+                                              fontFamily: 'Montserrat',
+                                              fontSize: 28 * screenWidth,
+                                              fontWeight: FontWeight.w700,
+                                              height: 1.1428571429,
+                                              color: Color(0xffffffff),
+                                            ),
+                                          ),
+                                          TextSpan(
+                                            text: ' donde puedas ver crecer a tus hijos con acceso a la mejor educación y tener la libertad de invertir en tus sueños. ',
+                                            style: TextStyle(
+                                              fontFamily: 'Montserrat',
+                                              fontSize: 28 * screenWidth,
+                                              fontWeight: FontWeight.w500,
+                                              height: 1.1428571429,
+                                              color: Color(0xffffffff),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                // noesperesmsCwC (1:3648)
+                                left: 523.5297851562 * screenWidth,
+                                top: (7751+110) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 321 * screenWidth,
+                                    height: 35 * screenWidth,
+                                    child: Text(
+                                      '¡No esperes más! ',
+                                      textAlign: TextAlign.center,
+                                      style: SafeGoogleFont(
+                                        'Montserrat',
+                                        fontSize: 35 * screenWidth,
+                                        fontWeight: FontWeight.w700,
+                                        height: 1 * screenWidth / screenWidth,
+                                        color: Color(0xffffffff),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                // conqualitylifetieneslaoportuni (1:3647)
+                                left: 174.4021606445 * screenWidth,
+                                top: (7805+110) * screenWidth, // Cambiado el top
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 1019 * screenWidth,
+                                    height: 70 * screenWidth,
+                                    child: SelectableText(
+                                      'Con QualityLife, tienes la oportunidad de asegurar un mañana lleno de posibilidades.',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontFamily: 'Montserrat', // Cambiado el nombre de la fuente
+                                        fontSize: 32 * screenWidth,
+                                        fontWeight: FontWeight.w700,
+                                        height: 1.09375 * screenWidth / screenWidth, // Simplificado
+                                        color: Color(0xffffffff),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                // teasesoramos5fQ (1:3751)
+                                left: 840.25 * screenWidth,
+                                top: (8257+60) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 250 * screenWidth,
+                                    height: 114 * screenWidth,
+                                    child: Text(
+                                      'Te asesoramos:',
+                                      textAlign: TextAlign.right,
+                                      style: SafeGoogleFont(
+                                        'Montserrat',
+                                        fontSize: 25 * screenWidth,
+                                        fontWeight: FontWeight.w600,
+                                        height: 4.56 * screenWidth / screenWidth,
+                                        color: Color(0xff5c777c),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                // aprovechalosbeneficiosynopierd (1:3738)
+                                left: 232 * screenWidth,
+                                top: (8363+100) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 300 * screenWidth,
+                                    height: 144 * screenWidth,
+                                    child: Text(
+                                      'Aprovecha los beneficios y no pierdas esta oportunidad.',
+                                      style: SafeGoogleFont(
+                                        'Inter',
+                                        fontSize: 34 * screenWidth,
+                                        fontWeight: FontWeight.w600,
+                                        height: 1.0588235294 * screenWidth / screenWidth,
+                                        color: Color(0xffadb1b8),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+
+                              Positioned(
+                                // llmanosal024503655servicioalcl (1:3739)
+                                left: 232 * screenWidth,
+                                top: (8535+100) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 247 * screenWidth,
+                                    height: 100 * screenWidth,
+                                    child: SelectableText.rich(
+                                      TextSpan(
+                                        style: TextStyle(
+                                          fontFamily: 'Montserrat',
+                                          fontSize: 12 * screenWidth,
+                                          fontWeight: FontWeight.w500,
+                                          height: 1.6666666667,
+                                          letterSpacing: 0.12 * screenWidth,
+                                          color: Color(0xff5c777c),
+                                        ),
+                                        children: [
+                                          TextSpan(
+                                            text: 'Llámanos al 024 503 655\n',
+                                            style: TextStyle(
+                                              fontFamily: 'Montserrat',
+                                              fontSize: 12 * screenWidth,
+                                              fontWeight: FontWeight.w500,
+                                              height: 1.6666666667,
+                                              letterSpacing: 0.12 * screenWidth,
+                                              color: Color(0xff5c777c),
+                                            ),
+                                          ),
+                                          TextSpan(
+                                            text: 'servicioalcliente@qualityseguros.com.ec\n',
+                                            style: TextStyle(
+                                              fontFamily: 'Montserrat',
+                                              fontSize: 12 * screenWidth,
+                                              fontWeight: FontWeight.w500,
+                                              height: 1.6666666667,
+                                              letterSpacing: 0.12 * screenWidth,
+                                              decoration: TextDecoration.underline,
+                                              color: Color(0xff5c777c),
+                                              decorationColor: Color(0xff5c777c),
+                                            ),
+                                          ),
+                                          TextSpan(
+                                            text: 'Av. Naciones Unidas e Iñaquito, edificio Metropolitan oficina 1607',
+                                            style: TextStyle(
+                                              fontFamily: 'Montserrat',
+                                              fontSize: 12 * screenWidth,
+                                              fontWeight: FontWeight.w500,
+                                              height: 1.6666666667,
+                                              letterSpacing: 0.12 * screenWidth,
+                                              color: Color(0xff5c777c),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                // todoslosderechosreservadosqual (1:3753)
+                                left: 140 * screenWidth,
+                                top: (8803+100) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 371 * screenWidth,
+                                    height: 36 * screenWidth,
+                                    child: SelectableText.rich(
+                                      TextSpan(
+                                        style: TextStyle(
+                                          fontFamily: 'Montserrat',
+                                          fontSize: 13 * screenWidth,
+                                          fontWeight: FontWeight.w300,
+                                          height: 1.3846153846,
+                                          letterSpacing: 0.13 * screenWidth,
+                                          color: Color(0xffffffff),
+                                        ),
+                                        children: [
+                                          TextSpan(
+                                            text: 'Todos los derechos reservados ',
+                                            style: TextStyle(
+                                              fontFamily: 'Montserrat',
+                                              fontSize: 13 * screenWidth,
+                                              fontWeight: FontWeight.w600,
+                                              height: 1.3846153846,
+                                              letterSpacing: 0.13 * screenWidth,
+                                              color: Color(0xffffffff),
+                                            ),
+                                          ),
+                                          TextSpan(
+                                            text: 'Quality Seguros 2023®\n',
+                                            style: TextStyle(
+                                              fontFamily: 'Montserrat',
+                                              fontSize: 13 * screenWidth,
+                                              fontWeight: FontWeight.w800,
+                                              height: 1.3846153846,
+                                              letterSpacing: 0.13 * screenWidth,
+                                              color: Color(0xffffffff),
+                                            ),
+                                          ),
+                                          TextSpan(
+                                            text: 'Powered by Gestion.agency',
+                                            style: TextStyle(
+                                              fontFamily: 'Montserrat',
+                                              fontSize: 13 * screenWidth,
+                                              fontWeight: FontWeight.w300,
+                                              height: 1.3846153846,
+                                              letterSpacing: 0.13 * screenWidth,
+                                              color: Color(0xffffffff),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                // estamoscercadetiRge (1:3756)
+                                left: 140 * screenWidth,
+                                top: (8668+120) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 263 * screenWidth,
+                                    height: 32 * screenWidth,
+                                    child: SelectableText(
+                                      'Estamos cerca de ti:',
+                                      style: TextStyle(
+                                        fontFamily: 'Montserrat',
+                                        fontSize: 25 * screenWidth,
+                                        fontWeight: FontWeight.w700,
+                                        height: 1.28 * screenWidth,
+                                        color: Color(0xffedc7b3),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                // quitoguayaquilcuencaibarraamba (1:3757)
+                                left: 454 * screenWidth,
+                                top: (8660+120) * screenWidth,
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 535 * screenWidth,
+                                    height: 50 * screenWidth,
+                                    child: SelectableText(
+                                      'Quito - Guayaquil - Cuenca - Ibarra - Ambato - Riobamba -  Portoviejo - Manta - Santo Domingo - Machala - Loja',
+                                      style: TextStyle(
+                                        fontFamily: 'Montserrat',
+                                        fontSize: 15 * screenWidth,
+                                        fontWeight: FontWeight.w500,
+                                        height: 1.6666666667 * screenWidth,
                                         color: Color(0xffffffff),
                                       ),
                                     ),
